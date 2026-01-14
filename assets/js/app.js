@@ -38,9 +38,7 @@ const toggle = document.getElementById("themeToggle");
 let dark = true;
 
 toggle.addEventListener("click", () => {
-    dark = !dark;
-    document.body.style.background = dark ? "#0b1218" : "#f4f7f9";
-    document.body.style.color = dark ? "#ffffff" : "#0b1218";
+    document.body.classList.toggle("light-mode");
 });
 
 // CUSTOM CURSOR

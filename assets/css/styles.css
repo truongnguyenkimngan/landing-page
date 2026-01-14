@@ -210,3 +210,64 @@ body {
     pointer-events: none;
     transform: translate(-50%, -50%);
 }
+
+/* =========================
+   LIGHT MODE
+========================= */
+
+body.light-mode {
+    background: #f4f7f9;
+    color: #0b1218;
+}
+
+/* Navbar */
+body.light-mode .navbar {
+    background: rgba(244,247,249,0.95);
+}
+
+body.light-mode .nav-item {
+    color: #0b1218;
+}
+
+body.light-mode .nav-item::after {
+    background: #007c8a;
+}
+
+/* Hero */
+body.light-mode .hero {
+    background:
+        linear-gradient(rgba(244,247,249,0.85), rgba(244,247,249,0.85)),
+        url("../images/flower-blue.jpg") center/cover no-repeat;
+}
+
+/* Section */
+body.light-mode .dark {
+    background: #e6eef2;
+}
+
+/* Cards */
+body.light-mode .card {
+    background: #ffffff;
+    color: #0b1218;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+body.light-mode .card p {
+    color: #333333;
+}
+
+/* FIX CHÍNH: chữ không chìm vào ảnh */
+body.light-mode .card h3 {
+    color: #004f57;
+}
+
+/* CTA */
+body.light-mode .cta {
+    background: #007c8a;
+    color: #ffffff;
+}
+
+/* Cursor */
+body.light-mode .cursor {
+    background: #007c8a;
+}
